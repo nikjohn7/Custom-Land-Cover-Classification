@@ -14,12 +14,6 @@ The dataset can be accessed from the `data.zip` file
 - `y_train.npy`: Numpy array containing the class that each image belongs to. It is of size 20k (for the 20k images in the above 2 folders)
 
 
-**Files to download:**
-
-- `TRAIN`: Contains 20k images (64x64) belonging to 10 classes
-- `y_train.npy`: A numpy array of size 20k containing corresponding labels of the images in TRAIN folder
-- `TEST`: I haven't used this folder in this project, since the labels were not available for the images in this folder. However, you can make use of it by hand labelling all images in the folder. It contains 7k images (64x64)
-
 ## Sample images in dataset
 
 ![landcover](https://user-images.githubusercontent.com/29889429/88455553-d5c20c80-ce93-11ea-9545-9711b8cf89eb.jpg)
