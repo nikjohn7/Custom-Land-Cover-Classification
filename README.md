@@ -18,6 +18,22 @@ You can download the data set from [here](https://pip.pypa.io/en/stable/)
 
 ![landcover](https://user-images.githubusercontent.com/29889429/88455553-d5c20c80-ce93-11ea-9545-9711b8cf89eb.jpg)
 
+## Classification classes
+
+| CLASS NAME | NUMPY REPRESENTATION (one-hot) | CLASS NUMBER |
+| :----:| :----: | :----: |
+| AnnualCrop | [1. 0. 0. 0. 0. 0. 0. 0. 0. 0.] | 0 |
+| Forest | [0. 1. 0. 0. 0. 0. 0. 0. 0. 0.] | 1 |
+| HerbaceousVegetation | [0. 0. 1. 0. 0. 0. 0. 0. 0. 0.] | 2 |
+| Highway | [0. 0. 0. 1. 0. 0. 0. 0. 0. 0.] | 3 |
+| Industrial | [0. 0. 0. 0. 1. 0. 0. 0. 0. 0.] | 4 |
+| Pasture | [0. 0. 0. 0. 0. 1. 0. 0. 0. 0.] | 5 |
+| PermanentCrop | [0. 0. 0. 0. 0. 0. 1. 0. 0. 0.] | 6 |
+| Residential | [0. 0. 0. 0. 0. 0. 0. 1. 0. 0.] | 7 |
+| River | [0. 0. 0. 0. 0. 0. 0. 0. 1. 0.] | 8 |
+| SeaLake | [0. 0. 0. 0. 0. 0. 0. 0. 0. 1.] | 9 |
+
+
 ## Notebook info
 I've used Keras with Tensorflow backend to train this model. Feel free to clone/fork and make changes.
 
