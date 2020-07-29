@@ -6,7 +6,13 @@ So I wrote a much simpler approach, wherein we directly convert a jpg image into
 
 ## Dataset
 
-You can download the data set from [here](https://pip.pypa.io/en/stable/)
+The dataset can be accessed from the `data.zip` file
+
+#### Folders:
+- `TRAIN`: Contains 10k images of size 64x64 belonging to 10 classes
+- `TRAIN2`: Contains another 10k images similar to previous folder. I only split them into 2 folders, because loading 2 smaller folders from google drive is faster on Colab
+- `y_train.npy`: Numpy array containing the class that each image belongs to. It is of size 20k (for the 20k images in the above 2 folders)
+
 
 **Files to download:**
 
